@@ -6,7 +6,7 @@ PonWrt 基于 [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)，增加
 
 ## HWTC 控制通路延迟分支
 
-本分支整合 `master` 至 `edaeeb300c9d`，包含 Linux 6.18.55、Airoha 温控、
+本次合并将 `master` 更新至 `03c134544714`，包含 Linux 6.18.55、Airoha 温控、
 可选 fraglist GRO 及板级 PHY/端口 LED 修复。PON 驱动与用户态仍固定为
 `67df6ec6` 和 `70302c96`，从公开的 `pbs05` 仓库获取，不回退到旧的 `main`。
 已有构建目录应检查优先于 `feeds.conf.default` 的本地 `feeds.conf` 及实际 feed 提交。

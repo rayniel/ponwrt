@@ -33,7 +33,7 @@ revisions rather than retaining previously selected feed versions. A local
 and the installed feed revisions. The pinned objects are fetched from the
 public `pbs05` repositories, without reverting to their older `main` tips.
 
-This branch integrates `master` through `edaeeb300c9d` (Linux 6.18.55),
+This merge brings in `master` through `03c134544714` (Linux 6.18.55),
 including Airoha thermal sensor fixes, opt-in fraglist GRO, HG5585F-CT PHY
 identification and UNG00A port/LED corrections. Patch 925 retains PPE
 mapping serialization and affected-flow invalidation while preserving patch
